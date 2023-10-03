@@ -41,7 +41,7 @@ func TestHashLabel(t *testing.T) {
 	o := v1.Node{
 		ObjectMeta: metav1.ObjectMeta{
 			Labels: map[string]string{
-				ReconcileHashLable: "fbd209056832bd23dc0334e04c2eea5bf2c5541e501ca2ab747ce7e3",
+				ReconcileHashLabel: "fbd209056832bd23dc0334e04c2eea5bf2c5541e501ca2ab747ce7e3",
 			},
 		},
 		Spec: v1.NodeSpec{

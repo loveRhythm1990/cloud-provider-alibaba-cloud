@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	ReconcileHashLable = "alibabacloud.com/reconcile.hash"
+	ReconcileHashLabel = "alibabacloud.com/reconcile.hash"
 )
 
 // HashObject
@@ -91,7 +91,7 @@ func isUnderlyingTypeZero(x interface{}) bool {
 }
 
 func isHashLabel(k string) bool {
-	return k == ReconcileHashLable
+	return k == ReconcileHashLabel
 }
 
 func PrettyYaml(obj interface{}) string {
